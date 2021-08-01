@@ -43,6 +43,7 @@
 #navbar ul{
     margin: 27px;
     display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 
@@ -83,4 +84,22 @@
     width: 100%;
     z-index: -1;
     opacity: 0.89;
+}
+
+#home h1{
+    color: darkred;    
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color: darkred;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
 }
