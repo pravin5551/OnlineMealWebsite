@@ -14,6 +14,7 @@
 #navbar{
     display: flex;
     align-items: center;
+    
 }
 
 #navbar::before{
@@ -80,10 +81,10 @@
     content: "";
     position: absolute;
     background: url('../Img/Imgb4.jpg') no-repeat center center/cover;
-    height: 48%;
+    height: 54%;
     width: 100%;
     z-index: -1;
-    opacity: 0.89;
+    opacity: 0.7;
 }
 
 #home h1{
@@ -161,6 +162,16 @@
 height:350px;
 font-family: 'Bree Serif', serif;
 }
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../Img/Imgv0.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 53%;
+    z-index: -1;
+    opacity: 0.4;
+    
+    }
 
 #clients{
     display: flex;
@@ -170,8 +181,54 @@ font-family: 'Bree Serif', serif;
 
 #clients img{
     height: 156px;
+    border-radius: 60px;
 }
 
 .client-item{
     padding: 12px;
+}
+
+/* contact section */
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background:url(../Img/Imgc4.jpg) no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
 }
